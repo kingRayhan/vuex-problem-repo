@@ -5,6 +5,9 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+window.api = require('./api.js')
+
+
 new Vue({
   router,
   store,
